@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer components {
+  .section-wrapper {
+    @apply container mx-auto px-6 sm:px-8 md:px-12 xl:px-16 py-10;
+  }
+}

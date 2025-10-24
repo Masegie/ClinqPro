@@ -18,15 +18,15 @@
 
           <!-- LAYER 2: teks (parallax only di teks) -->
           <div
-            class="absolute left-1/2 top-1/2 z-[1] text-center transition-all duration-700 ease-out"
+            class="absolute left-1/2 top-[42%] z-[1] transition-all duration-700 ease-out"
             :style="{
-              transform: `translate(-50%, calc(-${offsetY * 0.3}px - 120%))`,
+              transform: `translate(-50%, calc(-${offsetY * 0.3}px - 100%))`,
               opacity: textOpacity,
               filter: `blur(${textBlur}px)`,
             }"
           >
             <h1
-              class="px-4 text-[clamp(2.8rem,8vw,11rem)] font-extrabold leading-[1.02] tracking-tight select-none text-left bg-gradient-to-br from-[#274940] to-[#5DAF9A] text-transparent bg-clip-text drop-shadow-lg sm:px-8"
+              class="px-2 text-[clamp(3.6rem,10vw,13.5rem)] font-extrabold leading-[0.98] tracking-[0.035em] select-none text-center bg-gradient-to-br from-[#274940] to-[#5DAF9A] text-transparent bg-clip-text drop-shadow-lg sm:px-6"
             >
               The&nbsp;Ultimate <br />
               Cleaning&nbsp;Hero
